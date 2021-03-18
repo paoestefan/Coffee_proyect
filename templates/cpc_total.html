@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Dashboard | Coffee Market Analysis</title>
+
+
+    <!--STYLESHEET-->
+    <!--=================================================-->
+
+    <!--Open Sans Font [ OPTIONAL ]-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="..\static\css\bootstrap.min.css" rel="stylesheet">
+
+    <!--Nifty Stylesheet [ REQUIRED ]-->
+    <link href="..\static\css\nifty.min.css" rel="stylesheet">
+
+
+    <!--Nifty Premium Icon [ DEMONSTRATION ]-->
+    <link href="..\static\css\demo\nifty-demo-icons.min.css" rel="stylesheet">
+
+
+    <!--=================================================-->
+
+
+
+    <!--Pace - Page Load Progress Par [OPTIONAL]-->
+    <link href="..\static\plugins\pace\pace.min.css" rel="stylesheet">
+    <script src="..\static\plugins\pace\pace.min.js"></script>
+
+
+    <!--Demo [ DEMONSTRATION ]-->
+    <link href="..\static\css\demo\nifty-demo.min.css" rel="stylesheet">
+
+
+        
+    <!--Unite Gallery [ OPTIONAL ]-->
+    <link href="..\static\plugins\unitegallery\css\unitegallery.min.css" rel="stylesheet">
+
+
+            
+    <!--=================================================
+
+    REQUIRED
+    You must include this in your project.
+
+
+    RECOMMENDED
+    This category must be included but you may modify which plugins or components which should be included in your project.
+
+
+    OPTIONAL
+    Optional plugins. You may choose whether to include it in your project or not.
+
+
+    DEMONSTRATION
+    This is to be removed, used for demonstration purposes only. This category must not be included in your project.
+
+
+    SAMPLE
+    Some script samples which explain how to initialize plugins or components. This category should not be included in your project.
+
+
+    Detailed information and more samples can be found in the document.
+
+    =================================================-->
+        
+</head>
+
+<!--TIPS-->
+<!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
+<body>
+    <div id="container" class="effect aside-float aside-bright mainnav-lg">
+        
+        <!--NAVBAR-->
+        <!--===================================================-->
+        <header id="navbar">
+            <div id="navbar-container" class="boxed">
+
+                <!--Brand logo & name-->
+                <!--================================-->
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="..\static\img\logo.png" alt="Kappa Logo" class="brand-icon">
+                        <div class="brand-title">
+                            <span class="brand-text">Kappa Team</span>
+                        </div>
+                    </a>
+                </div>
+                <!--================================-->
+                <!--End brand logo & name-->
+
+
+                <!--Navbar Dropdown-->
+                <!--================================-->
+                <div class="navbar-content">
+                    <ul class="nav navbar-top-links">
+
+                        <!--Navigation toogle button-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li class="tgl-menu-btn">
+                            <a class="mainnav-toggle" href="#">
+                                <i class="demo-pli-list-view"></i>
+                            </a>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End Navigation toogle button-->
+
+                    </ul>
+                    <ul class="nav navbar-top-links">
+
+
+                        <!--Mega dropdown-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li class="mega-dropdown">
+                            <a href="#" class="mega-dropdown-toggle">
+                                <i class="demo-pli-layout-grid"></i>
+                            </a>
+                            <div class="dropdown-menu mega-dropdown-menu">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-3">
+                                        <!--Mega menu list-->
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="https://drive.google.com/drive/folders/1Ig0NVbtYBpgJGfltBmV2OgURlSAmj7iC?usp=sharing" class="media mar-btm">
+                                                    <div class="media-left">
+                                                        <i class="demo-pli-data-settings icon-2x"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="text-semibold text-main mar-no">Data Backup</p>
+                                                        <small class="text-muted">Here you can find the data used for this proyect</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://data.worldbank.org/indicator/SP.POP.TOTL">
+                                                    <div class="media-left">
+                                                        <i class="demo-pli-data-settings icon-2x"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="text-semibold text-main mar-no">Population Data</p>
+                                                        <small class="text-muted">Here you can find the data used for this proyect</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-md-3">
+                                        <p class="dropdown-header"><i class="demo-pli-file-jpg icon-lg icon-fw"></i> Gallery</p>
+                                        <div class="row img-gallery">
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-1.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-3.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-2.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-4.jpeg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-6.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-5.jpg" alt="thumbs">
+                                            </div>
+                                        </div>
+                                        <a href="https://drive.google.com/drive/folders/1M5w-P7g0vw_47okg2CkmxsxNluhRtll_?usp=sharing" class="btn btn-block btn-primary">Browse Gallery</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End mega dropdown-->
+            </div>
+        </header>
+        <!--===================================================-->
+        <!--END NAVBAR-->
+
+        <div class="boxed">
+
+            <!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div id="content-container">
+                <div id="page-head">
+                    
+<div class="pad-all text-center">
+    <h3>Welcome to the Coffee Market Dashboard.</h3>
+    <p1>Scroll down to see to explore our insights<p>
+</p1></div>
+                    </div>
+
+                
+                <!--Page content-->
+                <!--===================================================-->
+                <div id="page-content">
+                    <div class="panel bg-mint">
+                        <div class="blog-content">
+                            <div class="blog-title media-block">
+                                <a href="#" class="btn-link">
+                                    <h2>Consume Per Capita Forecast Condensation</h2>
+                                </a>
+                            </div>
+                            <div class="blog-body">
+                                <p>Once we identified the best model for each country and database, that model was used to predict the data 8 years ahead.</p>
+                                <p></p>
+                                <p>All the prediction models for the per capita consumption are calculated with the Random Forest method. For these top five European countries, the model shows irregular trends with high and lows over the forecasting period that, in overall terms, end with almost the same current consumption level, except for Sweden, who is the only country with a modest positive trend at the end of the period</p>
+                            </div>
+                        </div>
+                        <div class="blog-footer">
+                            <div class="label label-success">Process results</div>
+                        </div>
+                    </div>
+                    <!--===================================================-->
+                    <div class="col-sm-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"></h3>
+                            </div>
+                            <div class="panel">
+                                <div class="blog-header">
+                                    <img class="img-responsive" src="..\static\img/cpc/A/FC/RF.png" alt="Image">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-title media-block">
+                                        <div class="media-body">
+                                            <a href="https://drive.google.com/drive/folders/1bTuqibI2k_E3rpoCW5MK3CU-SWvTXa6z?usp=sharing" class="btn-link">
+                                                <h2>Austria´s Forecast</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>       
+                    <!--===================================================-->                     
+                    <!--===================================================-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"></h3>
+                                </div>
+                                <div class="panel">
+                                    <div class="blog-header">
+                                        <img class="img-responsive" src="..\static\img/cpc/D/FC/RF.png" alt="Image">
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="blog-title media-block">
+                                            <div class="media-body">
+                                                <a href="https://drive.google.com/drive/folders/1dNDQgvXJWBZ-EUD5szhkjsUeldo7jNjg?usp=sharing" class="btn-link">
+                                                    <h2>Denmark´s Forecast</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>       
+                    <!--===================================================-->
+                    <div class="col-lg-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"></h3>
+                            </div>
+                            <div class="panel">
+                                <div class="blog-header">
+                                    <img class="img-responsive" src="..\static\img/cpc/F/FC/RF.png" alt="Image">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-title media-block">
+                                        <div class="media-body">
+                                            <a href="https://drive.google.com/drive/folders/1CsHRLB_0LZs1v7eG5DRBALx22v-Gdkry?usp=sharing" class="btn-link">
+                                                <h2>Finland´s Forecast</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!--===================================================-->
+                    <div class="col-lg-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"></h3>
+                            </div>
+                            <div class="panel">
+                                <div class="blog-header">
+                                    <img class="img-responsive" src="..\static\img/cpc/N/FC/RF.png" alt="Image">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-title media-block">
+                                        <div class="media-body">
+                                            <a href="https://drive.google.com/drive/folders/1UEL1-P2COsvY1XnpBjE7rRKvPqEHNL5P?usp=sharing" class="btn-link">
+                                                <h2>Norway´s Forecast</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!--===================================================-->                    
+                    <div class="row">
+					    <div class="col-lg-6">
+					        <div class="panel">
+					            <div class="panel-heading">
+					                <h3 class="panel-title"></h3>
+					            </div>
+                                <div class="panel">
+                                    <div class="blog-header">
+                                        <img class="img-responsive" src="..\static\img/cpc/S/FC/RF.png" alt="Image">
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="blog-title media-block">
+                                            <div class="media-body">
+                                                <a href="https://drive.google.com/drive/folders/1za2yqWVufsSOM53GB8Q1MsNoeFgD3Q2a?usp=sharing" class="btn-link">
+                                                    <h2>Sweden´s Forecast</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>                        
+                <!--===================================================-->
+                <!--End page content-->
+
+            </div>
+            <!--===================================================-->
+            <!--END CONTENT CONTAINER-->
+
+            
+            <!--MAIN NAVIGATION-->
+            <!--===================================================-->
+            <nav id="mainnav-container">
+                <div id="mainnav">
+                    <!--Menu-->
+                    <!--================================-->
+                    <div id="mainnav-menu-wrap">
+                        <div class="nano">
+                            <div class="nano-content">
+                                <ul id="mainnav-menu" class="list-group">
+						
+						            <!--Category name-->
+						            <li class="list-header">Navigation</li>
+						
+						            <!--Menu list item-->
+						            <li class="active-sub">
+						                <a href="#">
+						                    <i class="demo-pli-home"></i>
+						                    <span class="menu-title">Dashboard</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+                                            <li><a href="index.html"><i class="demo-pli-photo-2"></i>Coffee Market ABC´s</a></li>
+											<li><a href="dashboard2.html"><i class="demo-pli-photo-2"></i>Coffee Consume</a></li>
+                                            <li><a href="dashboard4.html"><i class="demo-pli-photo-2"></i>Coffee Price</a></li>
+                                            <li><a href="dashboard3.html"><i class="demo-pli-photo-2"></i>Coffee Predictions</a></li>
+                                            <li><a href="facts.html"><i class="demo-pli-happy"></i>Fun Facts</a></li>
+						                </ul>
+						            </li>
+						
+						            <!--Category name-->
+						            <li class="list-header">Predictions</li>
+						
+						            <!--Menu list item-->
+						            <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Price paid to growers</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+						                    <li><a href="ppg_b.html">Brazil</a></li>
+											<li><a href="ppg_c.html">Colombia</a></li>
+											<li><a href="ppg_d.html">Dominican Republic</a></li>
+											<li><a href="ppg_h.html">Honduras</a></li>
+											<li><a href="ppg_i.html">India</a></li>
+											<li><a href="ppg_total.html">Run Down</a></li>						
+											
+						                </ul>
+						            </li>
+                                    <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Total Consumption</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+						                    <li><a href="tc_b.html">Brazil</a></li>
+											<li><a href="tc_f.html">France</a></li>
+											<li><a href="tc_g.html">Germany</a></li>
+											<li><a href="tc_j.html">Japan</a></li>
+											<li><a href="tc_u.html">USA</a></li>
+											<li><a href="tc_total.html">Run Down</a></li>	
+						                </ul>
+						            </li>
+                                    <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Total Production</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+						                    <li><a href="tp_b.html">Brazil</a></li>
+											<li><a href="tp_c.html">Colombia</a></li>
+											<li><a href="tp_e.html">Ethiopia</a></li>
+											<li><a href="tp_i.html">Indonesia</a></li>
+											<li><a href="tp_v.html">Vietnam</a></li>
+											<li><a href="tp_total.html">Run Down</a></li>
+											
+						                </ul>
+						            </li>
+                                    <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Consumption Per Capita</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse in">
+						                    <li><a href="cpc_a.html">Austria</a></li>
+											<li><a href="cpc_d.html">Denmark</a></li>
+											<li><a href="cpc_f.html">Finland</a></li>
+											<li><a href="cpc_n.html">Norway</a></li>
+											<li><a href="cpc_s.html">Sweden</a></li>
+											<li class="active-link"><a href="cpc_total.html">Run Down</a></li>
+											
+						                </ul>
+						            </li>
+						
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--================================-->
+                    <!--End menu-->
+
+                </div>
+            </nav>
+            <!--===================================================-->
+            <!--END MAIN NAVIGATION-->
+
+        </div>
+
+        
+
+        <!-- FOOTER -->
+        <!--===================================================-->
+        <footer id="footer">
+
+
+
+            <p class="pad-lft">&#0169; 2021 Kappa Team</p>
+
+
+
+        </footer>
+        <!--===================================================-->
+        <!-- END FOOTER -->
+
+
+        <!-- SCROLL PAGE BUTTON -->
+        <!--===================================================-->
+        <button class="scroll-top btn">
+            <i class="pci-chevron chevron-up"></i>
+        </button>
+        <!--===================================================-->
+    </div>
+    <!--===================================================-->
+    <!-- END OF CONTAINER -->
+
+
+    
+    
+    
+    <!--JAVASCRIPT-->
+    <!--=================================================-->
+
+    <!--jQuery [ REQUIRED ]-->
+    <script src="..\static\js\jquery.min.js"></script>
+    <!--GalleryJS [ RECOMMENDED ]-->
+    <script src="..\static\js/country.js"></script>
+
+    <!--BootstrapJS [ RECOMMENDED ]-->
+    <script src="..\static\js\bootstrap.min.js"></script>
+
+
+    <!--NiftyJS [ RECOMMENDED ]-->
+    <script src="..\static\js\nifty.min.js"></script>
+
+
+
+
+    <!--=================================================-->
+    
+    <!--Demo script [ DEMONSTRATION ]-->
+    <script src="..\static\js\demo\nifty-demo.min.js"></script>
+
+    <!--Unite Gallery [ OPTIONAL ]-->
+    <script src="..\static\plugins\unitegallery\js\unitegallery.min.js"></script>
+	<script src="..\static\plugins\unitegallery\themes\slider\ug-theme-slider.js"></script>
+  
+
+</body>
+</html>

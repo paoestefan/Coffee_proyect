@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Dashboard | Coffee Market Analysis</title>
+
+
+    <!--STYLESHEET-->
+    <!--=================================================-->
+
+    <!--Open Sans Font [ OPTIONAL ]-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="..\static\css\bootstrap.min.css" rel="stylesheet">
+
+    <!--Gallery Stylesheet [ REQUIRED ]-->
+    <link href="..\static\css/images.css" rel="stylesheet">
+
+    <!--Nifty Stylesheet [ REQUIRED ]-->
+    <link href="..\static\css\nifty.min.css" rel="stylesheet">
+
+
+    <!--Nifty Premium Icon [ DEMONSTRATION ]-->
+    <link href="..\static\css\demo\nifty-demo-icons.min.css" rel="stylesheet">
+
+
+    <!--=================================================-->
+
+
+
+    <!--Pace - Page Load Progress Par [OPTIONAL]-->
+    <link href="..\static\plugins\pace\pace.min.css" rel="stylesheet">
+    <script src="..\static\plugins\pace\pace.min.js"></script>
+
+
+    <!--Demo [ DEMONSTRATION ]-->
+    <link href="..\static\css\demo\nifty-demo.min.css" rel="stylesheet">
+
+
+            
+    <!--=================================================
+
+    REQUIRED
+    You must include this in your project.
+
+
+    RECOMMENDED
+    This category must be included but you may modify which plugins or components which should be included in your project.
+
+
+    OPTIONAL
+    Optional plugins. You may choose whether to include it in your project or not.
+
+
+    DEMONSTRATION
+    This is to be removed, used for demonstration purposes only. This category must not be included in your project.
+
+
+    SAMPLE
+    Some script samples which explain how to initialize plugins or components. This category should not be included in your project.
+
+
+    Detailed information and more samples can be found in the document.
+
+    =================================================-->
+        
+</head>
+
+<!--TIPS-->
+<!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
+<body>
+    <div id="container" class="effect aside-float aside-bright mainnav-lg">
+        
+        <!--NAVBAR-->
+        <!--===================================================-->
+        <header id="navbar">
+            <div id="navbar-container" class="boxed">
+
+                <!--Brand logo & name-->
+                <!--================================-->
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="..\static\img\logo.png" alt="Kappa Logo" class="brand-icon">
+                        <div class="brand-title">
+                            <span class="brand-text">Kappa Team</span>
+                        </div>
+                    </a>
+                </div>
+                <!--================================-->
+                <!--End brand logo & name-->
+
+
+                <!--Navbar Dropdown-->
+                <!--================================-->
+                <div class="navbar-content">
+                    <ul class="nav navbar-top-links">
+
+                        <!--Navigation toogle button-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li class="tgl-menu-btn">
+                            <a class="mainnav-toggle" href="#">
+                                <i class="demo-pli-list-view"></i>
+                            </a>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End Navigation toogle button-->
+
+                    </ul>
+                    <ul class="nav navbar-top-links">
+
+
+                        <!--Mega dropdown-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li class="mega-dropdown">
+                            <a href="#" class="mega-dropdown-toggle">
+                                <i class="demo-pli-layout-grid"></i>
+                            </a>
+                            <div class="dropdown-menu mega-dropdown-menu">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-3">
+                                        <!--Mega menu list-->
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="https://drive.google.com/drive/folders/1Ig0NVbtYBpgJGfltBmV2OgURlSAmj7iC?usp=sharing" class="media mar-btm">
+                                                    <div class="media-left">
+                                                        <i class="demo-pli-data-settings icon-2x"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="text-semibold text-main mar-no">Data Backup</p>
+                                                        <small class="text-muted">Here you can find the data used for this proyect</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://data.worldbank.org/indicator/SP.POP.TOTL">
+                                                    <div class="media-left">
+                                                        <i class="demo-pli-data-settings icon-2x"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p class="text-semibold text-main mar-no">Population Data</p>
+                                                        <small class="text-muted">Here you can find the data used for this proyect</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-12 col-md-3">
+                                        <p class="dropdown-header"><i class="demo-pli-file-jpg icon-lg icon-fw"></i> Gallery</p>
+                                        <div class="row img-gallery">
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-1.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-3.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-2.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-4.jpeg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-6.jpg" alt="thumbs">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="img-responsive" src="..\static\img\thumbs\img-5.jpg" alt="thumbs">
+                                            </div>
+                                        </div>
+                                        <a href="https://drive.google.com/drive/folders/1M5w-P7g0vw_47okg2CkmxsxNluhRtll_?usp=sharing" class="btn btn-block btn-primary">Browse Gallery</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End mega dropdown-->
+            </div>
+        </header>
+        <!--===================================================-->
+        <!--END NAVBAR-->
+
+        <div class="boxed">
+
+            <!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div id="content-container">
+                <div id="page-head">
+                    
+<div class="pad-all text-center">
+    <h3>Welcome to the Coffee Market Dashboard.</h3>
+    <p1>Scroll down to see to explore our insights<p>
+</p1></div>
+                    </div>
+
+                
+                <!--Page content-->
+                <!--===================================================-->
+                <div id="page-content">
+                        <!-- Container for the image gallery -->
+                        <div class="container">
+
+                            <!-- Full-width images with number text -->
+                            <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                                <img src="../static/img/gallery/1.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                                <img src="../static/img/gallery/2.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                                <img src="../static/img/gallery/3.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                                <img src="../static/img/gallery/4.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                                <img src="../static/img/gallery/5.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                                <img src="../static/img/gallery/6.jpg" style="width:100%">
+                            </div>
+                        
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                            <!-- Image text -->
+                            <div class="caption-container">
+                            <p id="caption"></p>
+                            </div>
+                        
+                            <!-- Thumbnail images -->
+                            <div class="row">
+                            <div class="column">
+                                <img class="demo cursor" src="../static/img/gallery/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The drink dates back to 800 A.D.">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="../static/img/gallery/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Coffee beans are technically seeds.">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="../static/img/gallery/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="You can eat coffee cherries as a food.">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="../static/img/gallery/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="There are two main types: Arabica and Robusta.">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="../static/img/gallery/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="The world's most expensive coffee can cost more than $600 a pound.">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="../static/img/gallery/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Coffee drinkers tend to live longer.">
+                            </div>
+                            </div>
+                        </div> 
+
+					
+				    
+                </div>
+                <!--===================================================-->
+                <!--End page content-->
+
+            </div>
+            <!--===================================================-->
+            <!--END CONTENT CONTAINER-->
+            
+            <!--MAIN NAVIGATION-->
+            <!--===================================================-->
+            <nav id="mainnav-container">
+                <div id="mainnav">
+                    <!--Menu-->
+                    <!--================================-->
+                    <div id="mainnav-menu-wrap">
+                        <div class="nano">
+                            <div class="nano-content">
+                                <ul id="mainnav-menu" class="list-group">
+						
+						            <!--Category name-->
+						            <li class="list-header">Navigation</li>
+						
+						            <!--Menu list item-->
+						            <li class="active-sub">
+						                <a href="#">
+						                    <i class="demo-pli-home"></i>
+						                    <span class="menu-title">Dashboard</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse in">
+                                            <li><a href="index.html"><i class="demo-pli-photo-2"></i>Coffee Market ABC´s</a></li>
+											<li><a href="dashboard2.html"><i class="demo-pli-photo-2"></i>Coffee Consume</a></li>
+                                            <li><a href="dashboard4.html"><i class="demo-pli-photo-2"></i>Coffee Price</a></li>
+                                            <li><a href="dashboard3.html"><i class="demo-pli-photo-2"></i>Coffee Predictions</a></li>
+                                            <li class="active-link"><a href="facts.html"><i class="demo-pli-happy"></i>Fun Facts</a></li>
+						                </ul>
+						            </li>
+						
+						            <!--Category name-->
+						            <li class="list-header">Predictions</li>
+						
+						            <!--Menu list item-->
+						            <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Price paid to growers</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+						                    <li><a href="ppg_b.html">Brazil</a></li>
+											<li><a href="ppg_c.html">Colombia</a></li>
+											<li><a href="ppg_d.html">Dominican Republic</a></li>
+											<li><a href="ppg_h.html">Honduras</a></li>
+											<li><a href="ppg_i.html">India</a></li>
+											<li><a href="ppg_total.html">Run Down</a></li>						
+											
+						                </ul>
+						            </li>
+                                    <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Total Consumption</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+						                    <li><a href="tc_b.html">Brazil</a></li>
+											<li><a href="tc_f.html">France</a></li>
+											<li><a href="tc_g.html">Germany</a></li>
+											<li><a href="tc_j.html">Japan</a></li>
+											<li><a href="tc_u.html">USA</a></li>
+											<li><a href="tc_total.html">Run Down</a></li>	
+						                </ul>
+						            </li>
+                                    <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Total Production</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+						                    <li><a href="tp_b.html">Brazil</a></li>
+											<li><a href="tp_c.html">Colombia</a></li>
+											<li><a href="tp_e.html">Ethiopia</a></li>
+											<li><a href="tp_i.html">Indonesia</a></li>
+											<li><a href="tp_v.html">Vietnam</a></li>
+											<li><a href="tp_total.html">Run Down</a></li>
+											
+						                </ul>
+						            </li>
+                                    <li>
+						                <a href="#">
+						                    <i class="demo-pli-receipt-4"></i>
+						                    <span class="menu-title">Consumption Per Capita</span>
+											<i class="arrow"></i>
+						                </a>
+						
+						                <!--Submenu-->
+						                <ul class="collapse">
+						                    <li><a href="cpc_a.html">Austria</a></li>
+											<li><a href="cpc_d.html">Denmark</a></li>
+											<li><a href="cpc_f.html">Finland</a></li>
+											<li><a href="cpc_n.html">Norway</a></li>
+											<li><a href="cpc_s.html">Sweden</a></li>
+											<li><a href="cpc_total.html">Run Down</a></li>
+											
+						                </ul>
+						            </li>
+						
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--================================-->
+                    <!--End menu-->
+
+                </div>
+            </nav>
+            <!--===================================================-->
+            <!--END MAIN NAVIGATION-->
+
+        </div>
+
+        
+
+        <!-- FOOTER -->
+        <!--===================================================-->
+        <footer id="footer">
+
+
+
+            <p class="pad-lft">&#0169; 2021 Kappa Team</p>
+
+
+
+        </footer>
+        <!--===================================================-->
+        <!-- END FOOTER -->
+
+
+        <!-- SCROLL PAGE BUTTON -->
+        <!--===================================================-->
+        <button class="scroll-top btn">
+            <i class="pci-chevron chevron-up"></i>
+        </button>
+        <!--===================================================-->
+    </div>
+    <!--===================================================-->
+    <!-- END OF CONTAINER -->
+
+
+    
+    
+    
+    <!--JAVASCRIPT-->
+    <!--=================================================-->
+
+    <!--jQuery [ REQUIRED ]-->
+    <script src="..\static\js\jquery.min.js"></script>
+
+    <!--GalleryJS [ RECOMMENDED ]-->
+    <script src="..\static\js/gallery.js"></script>
+
+    <!--BootstrapJS [ RECOMMENDED ]-->
+    <script src="..\static\js\bootstrap.min.js"></script>
+
+
+    <!--NiftyJS [ RECOMMENDED ]-->
+    <script src="..\static\js\nifty.min.js"></script>
+
+
+
+
+    <!--=================================================-->
+    
+    <!--Demo script [ DEMONSTRATION ]-->
+    <script src="..\static\js\demo\nifty-demo.min.js"></script>
+
+    
+    <!--Flot Chart [ OPTIONAL ]-->
+    <script src="..\static\plugins\flot-charts\jquery.flot.min.js"></script>
+	<script src="..\static\plugins\flot-charts\jquery.flot.resize.min.js"></script>
+	<script src="..\static\plugins\flot-charts\jquery.flot.tooltip.min.js"></script>
+
+
+    <!--Sparkline [ OPTIONAL ]-->
+    <script src="..\static\plugins\sparkline\jquery.sparkline.min.js"></script>
+
+
+    <!--Specify page [ SAMPLE ]-->
+    <script src="..\static\js\demo\dashboard.js"></script>
+
+
+    
+
+</body>
+</html>
